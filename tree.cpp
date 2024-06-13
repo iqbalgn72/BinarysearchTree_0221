@@ -30,5 +30,10 @@ public:
     void insert(string element)
     {
         node* newnode = new node(element, nullptr, nullptr);
+        newnode->info = element;
+        newnode->leftchild =nullptr;
+        newnode->rightchild = nullptr;
+
+        
     }
 };
