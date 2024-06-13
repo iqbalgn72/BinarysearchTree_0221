@@ -75,5 +75,9 @@ public:
             cout << "tree is empty" << endl;
             return;
         }
+        if (ptr != NULL)
+        {
+            inorder(ptr->leftchild);
+        }
     }
 };
