@@ -121,5 +121,13 @@ int main()
     {
         cout << "\nMenu" << endl;
         cout << "1.implement insert operation" << endl;
+        cout << "2.implement inorder operation" << endl;
+        cout << "3.implement preorder operation" << endl;
+        cout << "4.implement postorder operation" << endl;
+        cout << "EXIT" << endl;
+        cout << "\nEnter your choice (1-5) : ";
+        char ch;
+        cin >> ch;
+        cout << endl;
     }
 }
