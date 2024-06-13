@@ -113,3 +113,13 @@ public:
         }
     }
 };
+
+int main()
+{
+    binarytree x;
+    while (true)
+    {
+        cout << "\nMenu" << endl;
+        cout << "1.implement insert operation" << endl;
+    }
+}
