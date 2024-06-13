@@ -79,6 +79,7 @@ public:
         {
             inorder(ptr->leftchild);
             cout << ptr->info <<" ";
+            inorder(ptr->rightchild);
         
             
         }
