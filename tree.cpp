@@ -56,6 +56,11 @@ public:
 
     void search(string element, node*& parent, node*& currentnode)
     {
-        
+        currentnode = ROOT;
+        parent = NULL;
+        while ((currentnode !=NULL) &&(currentnode->info !=element))
+        {
+            
+        }
     }
 };
