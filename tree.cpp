@@ -19,3 +19,12 @@ class node
 
 };
 
+class binarytree
+{
+public:
+    node* ROOT;
+    binarytree()
+    {
+        ROOT = nullptr; 
+    }
+};
